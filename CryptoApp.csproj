@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Shared.WPF" Version="20.1.0.58" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Assets\Splash\" />
+    <Folder Include="Assets\Icon\" />
+    <Folder Include="Model\" />
+  </ItemGroup>
+
+</Project>
